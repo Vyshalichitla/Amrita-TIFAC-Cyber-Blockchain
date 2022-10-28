@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hansi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 08:05:02 PM"/>
+        <attribute name="created" value="aGFuc2k7SEFOU0lDQTsyMDIyLTEwLTI4OzA3OjQ4OjUxIFBNOzIzMjA="/>
+        <attribute name="edited" value="aGFuc2k7SEFOU0lDQTsyMDIyLTEwLTI4OzA4OjA1OjAyIFBNOzE7MjQxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rollno" type="String" array="False" size=""/>
+            <output expression="&quot;string rollno&quot;" newline="True"/>
+            <input variable="rollno"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;enter name&quot;" newline="True"/>
+            <input variable="name"/>
+            <declare name="address" type="String" array="False" size=""/>
+            <output expression="&quot;enter address&quot;" newline="True"/>
+            <input variable="address"/>
+            <declare name="bloodgroup" type="String" array="False" size=""/>
+            <output expression="&quot;enter bloodgroup&quot;" newline="True"/>
+            <input variable="bloodgroup"/>
+            <declare name="phonenumber" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter phonenumber&quot;" newline="True"/>
+            <input variable="phonenumber"/>
+            <declare name="departmentassigned" type="String" array="False" size=""/>
+            <output expression="&quot;enter departmentassigned&quot;" newline="True"/>
+            <input variable="departmentassigned"/>
+            <output expression="&quot;rollno is&quot;&amp;rollno&amp;&#13;&#10;&quot;name is&quot;&amp;name&amp;&#13;&#10;&quot;address is&quot;&amp;address&amp;&#13;&#10;&quot;bloodgroup is&quot;&amp;bloodgroup&amp;&#13;&#10;&quot;phonenumber is&quot;&amp;phonenumber" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
